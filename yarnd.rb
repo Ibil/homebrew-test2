@@ -1,4 +1,4 @@
-class Yarnc < Formula
+class Yarnd < Formula
   desc "JavaScript package manager"
   homepage "https://yarnpkg.com/"
   url "https://yarnpkg.com/downloads/1.22.19/yarn-v1.22.19.tar.gz"
