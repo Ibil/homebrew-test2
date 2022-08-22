@@ -9,9 +9,6 @@ class Yarnd < Formula
     skip("1.x line is frozen and features/bugfixes only happen on 2.x")
   end
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, all: "79b90324a5365189a144b786e9bdb3bf32be3823e9041d5f3250ea7b804dcd0b"
-  end
 
   depends_on "node" => :test
 
