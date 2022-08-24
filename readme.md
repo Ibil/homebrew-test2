@@ -31,6 +31,8 @@ which yarn // lists directories where yarn is installed. should be none
 ## Naming your formulae to avoid clashes
 If your formulae have the same name as Homebrew/homebrew-core formulae they cannot be installed side-by-side. If you wish to create a different version of a formula that’s in Homebrew/homebrew-core (e.g. with options) consider giving it a different name e.g. nginx-full for more fully-featured nginx formula. This will allow both nginx and nginx-full to be installed at the same time (assuming one is keg_only or the linked files do not clash).
 
+Use only lower-case characters for fomula file names
+
 [Versioned formula example](https://github.com/Homebrew/homebrew-core/blob/master/Formula/node%4014.rb)
 
 ## Adding formulas
