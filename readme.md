@@ -29,8 +29,12 @@ brew install exampleuser/examplerepo/yarnd
 
 brew uninstall yarn
 
-which yarn // lists directories where yarn is installed. should be none
+// lists directories where yarn is installed. should be none
 // if some are listed, you can check [this in order to uninstall yarn from the pc](https://stackoverflow.com/questions/42334978/how-do-i-uninstall-yarn)
+``
+which yarn 
+``
+
 
 
 ## Naming your formulae to avoid clashes
