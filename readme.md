@@ -27,14 +27,17 @@ brew install exampleuser/examplerepo/yarnd
 
 ## If you need to uninstall yarn:
 
+``
 brew uninstall yarn
+``
 
-// lists directories where yarn is installed. should be none
-// if some are listed, you can check [this in order to uninstall yarn from the pc](https://stackoverflow.com/questions/42334978/how-do-i-uninstall-yarn)
+Verify if yarn was unninstalled with the following command. It lists directories where yarn is installed. There should be none.
+
 ``
 which yarn 
 ``
 
+If some are listed, you can check [this in order to uninstall yarn from your device](https://stackoverflow.com/questions/42334978/how-do-i-uninstall-yarn)
 
 
 ## Naming your formulae to avoid clashes
