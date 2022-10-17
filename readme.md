@@ -11,12 +11,17 @@ By using brew and naming this repo with the "homebrew-" prefix, the brew commman
 More info: https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap
 
 ex:
+## settings
+```
 githubrepo name: homebrew-examplerepo
 githuh repo owner: exampleuser
 example formula name: yarnd.rb
+```
 
+## command
+``
 brew install exampleuser/examplerepo/yarnd
-
+``
 
 # FAQS:
 
