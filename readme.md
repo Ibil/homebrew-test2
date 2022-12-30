@@ -10,15 +10,16 @@ This repo was created in order for everyone at appletv to get the same versions 
 By using brew and naming this repo with the "homebrew-" prefix, the brew commmand can now install dependencys from this repo.
 More info: https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap
 
-ex:
-## settings
+## example of setup:
+
+### settings
 ```
 githubrepo name: homebrew-examplerepo
 githuh repo owner: exampleuser
 example formula name: yarnd.rb
 ```
 
-## command
+### tap install command
 ``
 brew install exampleuser/examplerepo/yarnd
 ``
