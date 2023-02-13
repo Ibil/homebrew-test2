@@ -22,7 +22,7 @@ example formula name: yarnd.rb
 
 ### tap install command
 ``
-brew install exampleuser/examplerepo/yarnd
+brew install exampleusername/examplereponame/yarnd
 ``
 
 # updating formula versions
